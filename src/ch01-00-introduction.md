@@ -1,33 +1,41 @@
 # Introdução
 
-Seja bem vindo(a) ao “Linguagem de Programação Rust”, um livro introdutório
-sobre Rust. Rust é uma linguagem de programação focada em segurança, eficiência
-e concorrência. Seu *design* lhe permite criar programas com o desempenho e
-controle de uma linguagem de baixo nível, mas com as abstrações poderosas de uma
-linguagem de alto nível. Estas propriedades tornam Rust adequado para
-programadores que têm experiência em linguagens como C e procuram por uma
-alternativa mais segura, bem como para aqueles que vêm de linguagens como o
-Python e que procuram por maneiras de escrever código com melhor desempenho sem
-sacrificar a expressividade.
+Seja bem vindo(a) ao “Linguagem de Programação Rust”, um livro introdutório sobre Rust.
 
-Rust executa a maioria das suas verificações de segurança e decisões de
-gerenciamento de memória em tempo de compilação, para que o desempenho de
-execução do seu programa não seja impactado. Isso torna a linguagem útil em um
-número de casos para os quais outras linguagens não são adequadas: programas com
-requisitos de tempo e espaço previsíveis, incorporação de código em outras
-linguagens e a escrita de código de baixo nível, como *drivers* de dispositivo e
-sistemas operacionais. A linguagem Rust também é fantástica para aplicações web:
-ela está por trás do site do registro de pacotes do Rust, [crates.io]! Estamos
-curiosos para saber o que *você* fará com Rust.
+Rust é uma linguagem de programação que ajuda você a escrever softwares mais rápidos e
+confiáveis. A ergonomia de alto nível e o controle de baixo nível estão frequentemente em desacordo um com o
+outro no design da linguagem de programação;Rust fica para desafiar isso.
+Através do balanceamento de uma capacidade técnica poderosa e de uma excelente experiência de desenvolvimento,
+o Rust oferece a opção de controlar detalhes de baixo nível (como uso de memória)
+sem todos os problemas tradicionalmente associados a esse controle.
 
-[crates.io]: https://crates.io/
+## Para quem é o Rust
 
-Este livro tem como público-alvo um leitor que já sabe como programar em pelo
-menos uma linguagem de programação. Após ler este livro, você deve se sentir
-confiante para escrever programas em Rust. Ensinaremos Rust através de exemplos
-focados e pequenos, que se complementam gradualmente para demonstrar o uso de
-várias características da linguagem Rust, bem como eles funcionam “nos
-bastidores”.
+Rust é indicado para varias pessoas por diversos motivos. Vamos falar alguns dos
+grupos mais importantes.
+
+### Times de desenvolvedores
+
+Rust está provando ser uma ferramenta produtiva para colaboração entre grandes equipes de
+desenvolvedores com diferentes níveis de conhecimento de programação de sistemas. Código de
+baixo nível está propenso a diversos bugs sutis que na maioria das outras linguagens podem ser capturadas por
+testes extensivos e revisão de código cuidadosa por programadores
+experientes. No Rust, o compilador desempenha um papel de vigia, recusando-se
+a compilar código com esses tipos de bugs - incluindo bugs de concorrência. Ao trabalhar
+ao lado do compilador, o time pode dedicar mais tempo na
+lógica do programação ao invés de caçar bugs.
+
+Rust também traz ferramentas de denvolvimento modernas ao mundo de programação de sistemas:
+
+* Cargo, o gerenciador de dependência e ferramenta de construção, torna a adição,
+a compilação e o gerenciamento de dependências fácil e consistente em todo o
+ecossistema Rust.
+* O Rustfmt garante um estilo de codificação consistente entre os desenvolvedores.
+* O Rust Language Server fornece integração à IDE para criação de código e
+mensagens de erro embutidas.
+
+Usando essas e outras ferramentas no escossistema Rust, os desenvolvedores podem ser
+produtivos enquanto escrevem códigos em nível de sistema.
 
 ## Sobre a Tradução
 
